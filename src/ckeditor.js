@@ -11,7 +11,6 @@ import Autoformat from "@ckeditor/ckeditor5-autoformat/src/autoformat";
 import Bold from "@ckeditor/ckeditor5-basic-styles/src/bold";
 import Underline from "@ckeditor/ckeditor5-basic-styles/src/underline";
 import Italic from "@ckeditor/ckeditor5-basic-styles/src/italic";
-import BlockQuote from "@ckeditor/ckeditor5-block-quote/src/blockquote";
 import Heading from "@ckeditor/ckeditor5-heading/src/heading";
 import Indent from "@ckeditor/ckeditor5-indent/src/indent";
 import Link from "@ckeditor/ckeditor5-link/src/link";
@@ -29,7 +28,6 @@ ClassicEditor.builtinPlugins = [
   Autoformat,
   Bold,
   Italic,
-  BlockQuote,
   Heading,
   Indent,
   Link,
@@ -57,10 +55,7 @@ ClassicEditor.defaultConfig = {
       "indent",
       "outdent",
       "|",
-      "imageUpload",
-      "blockQuote",
       "insertTable",
-      "mediaEmbed",
       "undo",
       "redo"
     ]
